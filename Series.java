@@ -17,6 +17,10 @@ public class Series {
             }
             System.out.println();
         }
-        in.close();
+        sum(10,40);
+    }
+    public static void sum(int a, int b){
+        int sum = a + b;
+        System.out.println(sum);
     }
 }
